@@ -1,0 +1,18 @@
+# Ignore Obsidian cache and temporary files
+.obsidian/workspace
+.obsidian/plugins/obsidian-excalidraw-plugin/
+.obsidian/plugins/templater-obsidian/cache/
+.obsidian/plugins/dataview/
+.obsidian/plugins/obsidian-git/data.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter/Quarto output
+*.ipynb_checkpoints/
+*.html
+*.pdf
+
+# RenderDoc or temp captures
+assets/renderdoc/*.rdc

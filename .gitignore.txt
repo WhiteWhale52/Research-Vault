@@ -6,13 +6,15 @@
 .obsidian/plugins/obsidian-git/data.json
 
 # OS-generated files
-.DS_Store
 Thumbs.db
 
 # Jupyter/Quarto output
 *.ipynb_checkpoints/
 *.html
 *.pdf
+*.qmd.cache/
+*.png
 
 # RenderDoc or temp captures
 assets/renderdoc/*.rdc
+

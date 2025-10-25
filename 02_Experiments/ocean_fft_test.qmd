@@ -10,14 +10,43 @@ Test performance of different FFT sizes.
 ```{python}
 import numpy as np
 import matplotlib.pyplot as plt
-from numpy.fft import fft2, ifft2
 
-n = 256
-H0 = np.random.rand(n, n) + 1j*np.random.rand(n, n)
-Ht = H0*np.exp(1j*2*np.pi*0.1)
-height = np.real(ifft2(Ht))
+# Parameters
+N = 256
+L = 1000.0   # domain size (meters)
+g = 9.81     # gravity
 
+# Generate frequency domain grid
+k = (np.pi * (2 * np.fft.fftfreq(N))) * N / L
+kx, ky = np.meshgrid(k, k)
+k_len = np.sqrt(kx**2 + ky**2)
+k_len[0, 0] = 1e-6  # avoid division by zero
+
+# Define a Phillips spectrum (simple approximation)
+wind_dir = np.array([1.0, 0.0])
+k_dot_w = (kx * wind_dir[0] + ky * wind_dir[1]) / k_len
+L_wind = 200.0
+A = 1e-3
+P = A * np.exp(-1.0 / (k_len * L_wind)**2) * (k_dot_w**2) / (k_len**4)
+P[k_dot_w < 0] = 0.0  # only waves moving in wind dir
+
+# Generate initial complex amplitudes
+xi = (np.random.normal(size=(N, N)) + 1j * np.random.normal(size=(N, N))) / np.sqrt(2)
+H0 = xi * np.sqrt(P)
+
+# Time evolution
+t = 20.0
+omega = np.sqrt(g * k_len)
+Ht = H0 * np.exp(1j * omega * t) + np.conj(H0) * np.exp(-1j * omega * t)
+
+# Inverse FFT to get spatial heightfield
+height = np.real(np.fft.ifft2(Ht))
+
+# Plot
+plt.figure(figsize=(6, 6))
 plt.imshow(height, cmap='viridis')
-plt.title("Ocean Heightfield")
+plt.title("Ocean Heightfield (Tessendorf Spectrum)")
+plt.axis('off')
 plt.show()
 
+```

@@ -2,7 +2,9 @@
   "showLineNumber": true,
   "vimMode": true,
   "userIgnoreFilters": [
-    "/png/"
+    "/png/",
+    "02_Experiments/*/libs"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "showUnsupportedFiles": true
 }

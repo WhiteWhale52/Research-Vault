@@ -1,8 +1,11 @@
 ---
-title: "Experiment – [Short Title]"
-author: "Mohamed Tarek Mohamed"
-date: YYYY-MM-DD
-tags: [experiment, project-name, topic]
+title: Experiment – [Short Title]
+author: Mohamed Tarek Mohamed
+date: "{{date}}"
+tags:
+  - experiment
+  - project-name
+  - topic
 project: project-name
 status: in-progress
 ---

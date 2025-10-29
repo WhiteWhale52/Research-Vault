@@ -1,14 +1,14 @@
 ---
 title: "Paper Title: Simulating Ocean Waves"
 author: Mohamed Tarek Mohamed
-date: YYYY-MM-DD
+date: 2025:10:29 -- Wed
 tags:
   - literature
   - paper-review
-  - topic
+  - fluid-simulation
 status: draft
 reference:
-  - \@authorYearPaperID
+  - Tessendorf2004
 ---
 
 # Introduction  

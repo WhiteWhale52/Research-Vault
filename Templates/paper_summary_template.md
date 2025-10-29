@@ -1,10 +1,14 @@
 ---
 title: "Paper Title: [Insert Title Here]"
-author: "Mohamed Tarek Mohamed"
-date: YYYY-MM-DD
-tags: [literature, paper-review, topic]
+author: Mohamed Tarek Mohamed
+date: "{{date}}"
+tags:
+  - literature
+  - paper-review
+  - topic
 status: draft
-reference: [\@authorYearPaperID]
+reference:
+  - \@authorYearPaperID
 ---
 
 # Introduction  

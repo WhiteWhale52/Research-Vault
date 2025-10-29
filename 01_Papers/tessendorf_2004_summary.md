@@ -1,5 +1,6 @@
 ---
-title: "Paper Title: Simulating Ocean Waves"
+title: Simulating Ocean Waves
+bibliography: C:/Users/moham/Documents/Research Vault/Bibliography/references.bib
 author: Mohamed Tarek Mohamed
 date: 2025:10:29 -- Wed
 tags:
@@ -10,7 +11,8 @@ status: draft
 reference:
   - Tessendorf2004
 ---
-According to [@tessendorfSimulatingOceanWater2004] 
+According to [@tessendorfSimulatingOceanWater2004]
+
 # Introduction  
 Brief summary of the paper, purpose, and context.
 

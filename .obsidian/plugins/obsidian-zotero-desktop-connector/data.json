@@ -6,8 +6,9 @@
   "pdfExportImageQuality": 90,
   "citeFormats": [
     {
-      "name": "IEEE",
-      "format": "pandoc"
+      "name": "ACM SIGGRAPH",
+      "format": "formatted-bibliography",
+      "cslStyle": "acm-siggraph"
     }
   ],
   "exportFormats": [
@@ -17,7 +18,7 @@
       "imageOutputPathTemplate": "source-notes/{{citekey}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "Templates/source-notes.md",
-      "cslStyle": "IEEE"
+      "cslStyle": "acm-siggraph"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",

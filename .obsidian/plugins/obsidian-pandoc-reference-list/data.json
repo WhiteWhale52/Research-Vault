@@ -5,7 +5,7 @@
     {
       "id": 1,
       "name": "My Library",
-      "lastUpdate": 1761774990502
+      "lastUpdate": 1761778537202
     }
   ],
   "renderCitations": true,
@@ -16,5 +16,5 @@
   "zoteroPort": "23119",
   "enableCiteKeyCompletion": true,
   "showCitekeyTooltips": true,
-  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl"
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/acm-siggraph.csl"
 }

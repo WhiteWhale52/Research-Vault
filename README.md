@@ -7,7 +7,7 @@ projects related to real-time rendering, Vulkan, and procedural graphics systems
 
 ## 📂 Structure
 ```
-	text research-vault/
+	research-vault/
 	│ 
 	├── 00_Planning/ # Roadmaps, research questions, goals 
 	├── 01_Papers/ # Literature review notes and paper summaries 

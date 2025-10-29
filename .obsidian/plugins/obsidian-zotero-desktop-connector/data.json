@@ -1,6 +1,6 @@
 {
   "database": "Zotero",
-  "noteImportFolder": "",
+  "noteImportFolder": "source-notes",
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 90,
@@ -10,7 +10,16 @@
       "format": "pandoc"
     }
   ],
-  "exportFormats": [],
+  "exportFormats": [
+    {
+      "name": "source-notes",
+      "outputPathTemplate": "source-notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "source-notes/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "Templates/source-notes.md",
+      "cslStyle": "IEEE"
+    }
+  ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": false,
   "whichNotesToOpenAfterImport": "first-imported-note"

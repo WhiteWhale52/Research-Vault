@@ -7,5 +7,7 @@
   "obsidian-tasks-plugin",
   "yet-another-obsidian-synchronizer",
   "obsidian-zotero-desktop-connector",
-  "obsidian-pandoc-reference-list"
+  "obsidian-pandoc-reference-list",
+  "highlightr-plugin",
+  "templater-obsidian"
 ]

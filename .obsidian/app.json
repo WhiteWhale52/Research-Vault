@@ -6,5 +6,11 @@
     "02_Experiments/*/libs"
   ],
   "promptDelete": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

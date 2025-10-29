@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a4f5c8c90ca1d2c5",
+        "id": "ebd82b9a8728d54a",
         "type": "tabs",
         "children": [
           {
-            "id": "7cda8537e47fc2b9",
+            "id": "6246885e8623a14d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "02_Experiments/ocean_fft_test_files/figure-html/cell-2-output-1.png"
+                "file": "01_Papers/tessendorf_2004_fft_ocean.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "cell-2-output-1"
+              "icon": "lucide-file",
+              "title": "tessendorf_2004_fft_ocean"
             }
           }
         ]
@@ -169,8 +171,9 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "7cda8537e47fc2b9",
+  "active": "6246885e8623a14d",
   "lastOpenFiles": [
+    "02_Experiments/ocean_fft_test_files/figure-html/cell-2-output-1.png",
     "01_Papers/tessendorf_2004_fft_ocean.md",
     "Templates/experiment_template.md",
     "01_Papers/Tessendorf.md",
@@ -183,7 +186,6 @@
     "05_PDFs/Simulating Ocean Water.pdf",
     "02_Experiments/ocean_fft_test_files/mediabag",
     "02_Experiments/ocean_fft_test.quarto_ipynb",
-    "02_Experiments/ocean_fft_test_files/figure-html/cell-2-output-1.png",
     "02_Experiments/ocean_fft_test_files/figure-html",
     "requirement.txt",
     "02_Experiments/ocean_fft_test_files/libs/quarto-html/tabsets/tabsets.js",

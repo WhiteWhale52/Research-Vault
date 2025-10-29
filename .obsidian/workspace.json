@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "204d4879f3640049",
+        "id": "a4f5c8c90ca1d2c5",
         "type": "tabs",
         "children": [
           {
-            "id": "1c7083ed5180a965",
+            "id": "7cda8537e47fc2b9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01_Papers/Tessendorf.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tessendorf"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,8 +171,17 @@
       "yet-another-obsidian-synchronizer:YAOS": false
     }
   },
-  "active": "2c4c5cae13a6cc2e",
+  "active": "7cda8537e47fc2b9",
   "lastOpenFiles": [
+    "Templates/experiment_template.md",
+    "01_Papers/Tessendorf.md",
+    "01_Papers/tessendorf_2004_fft_ocean.md",
+    "Templates/paper_summary_template.md",
+    "README.md",
+    "Templates",
+    "05_PDFs/tessendorf_2004_fft_ocean.pdf",
+    "05_PDFs/Tessendorf_2004.pdf",
+    "05_PDFs/Simulating Ocean Water.pdf",
     "02_Experiments/ocean_fft_test_files/mediabag",
     "02_Experiments/ocean_fft_test.quarto_ipynb",
     "02_Experiments/ocean_fft_test_files/figure-html/cell-2-output-1.png",
@@ -177,11 +189,6 @@
     "requirement.txt",
     "02_Experiments/ocean_fft_test_files/libs/quarto-html/tabsets/tabsets.js",
     "02_Experiments/ocean_fft_test_files/libs/quarto-html/axe/axe-check.js",
-    "02_Experiments/ocean_fft_test_files/libs/bootstrap/bootstrap.min.js",
-    "02_Experiments/ocean_fft_test_files/libs/bootstrap/bootstrap-icons.woff",
-    "02_Experiments/ocean_fft_test_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css",
-    "02_Experiments/ocean_fft_test_files/libs/bootstrap/bootstrap-icons.css",
-    "README.md",
     "Excalidraw/Drawing 2025-10-23 03.58.13.excalidraw.md",
     "2025-10-23.md",
     "Welcome.md"

@@ -3,5 +3,6 @@
   "vimMode": true,
   "userIgnoreFilters": [
     "/png/"
-  ]
+  ],
+  "promptDelete": false
 }

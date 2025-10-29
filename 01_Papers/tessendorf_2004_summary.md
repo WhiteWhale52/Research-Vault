@@ -1,6 +1,6 @@
 ---
 title: Simulating Ocean Waves
-bibliography: " Bibliography/references.bib"
+bibliography: " ../Bibliography/references.bib"
 author: Mohamed Tarek Mohamed
 date: 2025:10:29 -- Wed
 tags:

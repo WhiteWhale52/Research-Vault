@@ -1,0 +1,13 @@
+{
+  "pathToPandoc": "",
+  "tooltipDelay": 400,
+  "zoteroGroups": [],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pullFromZotero": false,
+  "pathToBibliography": "C:\\Users\\moham\\Documents\\Research Vault\\Bibliography\\references.bib",
+  "zoteroPort": "23119",
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true
+}

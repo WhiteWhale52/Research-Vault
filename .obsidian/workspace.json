@@ -11,14 +11,12 @@
             "id": "7cda8537e47fc2b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01_Papers/tessendorf_2004_fft_ocean.md",
-                "mode": "source",
-                "source": false
+                "file": "02_Experiments/ocean_fft_test_files/figure-html/cell-2-output-1.png"
               },
-              "icon": "lucide-file",
-              "title": "tessendorf_2004_fft_ocean"
+              "icon": "lucide-image",
+              "title": "cell-2-output-1"
             }
           }
         ]

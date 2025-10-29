@@ -14,6 +14,8 @@ Thumbs.db
 *.pdf
 *.qmd.cache/
 *.png
+02_Experiments/*/libs
+
 
 # RenderDoc or temp captures
 assets/renderdoc/*.rdc

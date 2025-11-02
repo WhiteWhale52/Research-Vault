@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Papers/tessendorf_2004_summary.md",
+                "file": "Templates/Paper core (generalized).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tessendorf_2004_summary"
+              "title": "Paper core (generalized)"
             }
           }
         ]
@@ -195,14 +195,17 @@
   },
   "active": "3d3e7c1f51c67837",
   "lastOpenFiles": [
-    "05_PDFs/tessendorf_2004_fft_ocean.pdf",
+    "Templates/Methods.md",
+    "Templates/Annotations.md",
     "Templates/source-notes.md",
-    "source-notes/tessendorfSimulatingOceanWater2004.md",
+    "Templates/Paper core (generalized).md",
     "Templates/paper_summary_template.md",
+    "01_Papers/tessendorf_2004_summary.md",
+    "05_PDFs/tessendorf_2004_fft_ocean.pdf",
+    "source-notes/tessendorfSimulatingOceanWater2004.md",
     "Templates/experiment_template.md",
     "source-notes",
     "Untitled.md",
-    "01_Papers/tessendorf_2004_summary.md",
     "01_Papers/@tessendorfSimulatingOceanWater2004.md",
     "@{tessendorfSimulatingOceanWater2004}.md",
     "02_Experiments/ocean_fft_test_files/figure-html/cell-2-output-1.png",

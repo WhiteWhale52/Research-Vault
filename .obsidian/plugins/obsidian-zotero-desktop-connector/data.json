@@ -14,7 +14,7 @@
   "exportFormats": [
     {
       "name": "source-notes",
-      "outputPathTemplate": "source-notes/{{citekey}}.md",
+      "outputPathTemplate": "01_Papers/@{{citekey}}.md",
       "imageOutputPathTemplate": "source-notes/{{citekey}}/",
       "imageBaseNameTemplate": "image",
       "templatePath": "Templates/source-notes.md",
